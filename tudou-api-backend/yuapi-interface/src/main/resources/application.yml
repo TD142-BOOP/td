@@ -10,9 +10,9 @@ spring:
   # 数据库配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/api
-    username: root
-    password: 123456
+    url: jdbc:mysql://localhost:3306/xxx
+    username: xxx
+    password: xxx
 
 mybatis-plus:
   configuration:
@@ -20,6 +20,6 @@ mybatis-plus:
     log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
 yuapi:
   client:
-    secret-key: 348533e2bdd8e8a8085ccff19aa97c68
-    access-key: 06654201d97ad5efe8370589b070d55e
+    secret-key: xxx
+    access-key: xxx
 
