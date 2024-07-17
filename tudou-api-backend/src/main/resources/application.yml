@@ -23,9 +23,9 @@ spring:
   # todo 需替换配置
   datasource:
     driver-class-name: com.mysql.cj.jdbc.Driver
-    url: jdbc:mysql://localhost:3306/api
-    username: root
-    password: 123456
+    url: jdbc:mysql://localhost:3306/xxx
+    username: xxx
+    password: xxx
   # Redis 配置
   # todo 需替换配置，然后取消注释
   redis:
@@ -43,8 +43,8 @@ spring:
   rabbitmq:
     host: 127.0.0.1
     port: 5672
-    username: guest
-    password: guest
+    username: xxx
+    password: xxx
     virtualHost: /
     #    #确认消息已发送到交换机(Exchange)
     #    publisher-confirm-type: correlated
