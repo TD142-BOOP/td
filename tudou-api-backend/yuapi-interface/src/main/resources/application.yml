@@ -1,0 +1,25 @@
+server:
+  port: 8123
+  servlet:
+    context-path: /api/interface
+
+spring:
+  application:
+    name: api-interface
+
+  # 数据库配置
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://localhost:3306/api
+    username: root
+    password: 123456
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+yuapi:
+  client:
+    secret-key: 348533e2bdd8e8a8085ccff19aa97c68
+    access-key: 06654201d97ad5efe8370589b070d55e
+
